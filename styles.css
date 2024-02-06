@@ -3,11 +3,12 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
-    background-color: #e0e0e0; 
+    background-color: #e0e0e0;
+    color: #333;
+    text-align: center;
 }
 
 .header {
-    color: #333; 
     margin-bottom: 20px;
     padding: 100px;
     text-align: center;
@@ -27,7 +28,12 @@ body {
 
 .page-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+}
+
+.mission {
+    max-width: 25vw;
+    padding: 0 1vw 0 1vw;
 }
 
 .contact-container {
@@ -41,11 +47,10 @@ body {
     margin-top: 50px; 
 }
 
-h2 {
+/*h2 {
     font-weight: bold;
-    color: #333; 
     margin-bottom: 20px; 
-}
+}*/
 
 p {
     margin-bottom: 20px; 
@@ -53,6 +58,7 @@ p {
 
 form {
     background-color: #ffffff; 
+    color: #000000;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

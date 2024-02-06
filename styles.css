@@ -6,6 +6,25 @@ body {
     background-color: #e0e0e0; 
 }
 
+.header {
+    color: #333; 
+    margin-bottom: 20px;
+    padding: 100px;
+    text-align: center;
+}
+
+.header a {
+    border-radius: 5px;
+    color: #333; 
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.header a:hover {
+    background-color: #333; 
+    color: #e0e0e0;
+}
+
 .page-container {
     display: flex;
     justify-content: center; 

@@ -1,0 +1,51 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <div class="page-container">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>If you have a problem or community service request that you would like our group to assist you with, please use the form to sumbmit a request</p>
+            </div>
+        </div>
+
+        <form>
+            <div class="name-container">
+                <div class="input-group">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+                <div class="input-group">
+                    <label class="last-name-label" for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div class="input-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

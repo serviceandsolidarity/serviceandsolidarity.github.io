@@ -2,31 +2,35 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
+    margin: 0;  /* noticed it wasn't filling the whole page */
     background-color: #e0e0e0;
     color: #333;
     text-align: center;
 }
 
 .header {
-    margin-bottom: 20px;
-    padding: 100px;
+    width: 100%; 
+    margin: 0; 
+    padding: 100px 0; 
     text-align: center;
-    background-color: #4F6D7A; /* Light navy blue */
+    background-color: #1c88ed;  /* tried to get a blue that matched our logo */
+    color: #ffffff; 
+    box-sizing: border-box; 
 }
 
 
 .header a {
     border-radius: 5px;
-    color: #333; 
+    color: #ffffff; /* changed header text to white for now for testing purposes */
     padding: 0 10px 0 10px;
     text-decoration: none;
 }
 
 .header a:hover {
     background-color: #333; 
-    color: #e0e0e0;
+    color: #e0e0e0; 
 }
+
 
 .page-container {
     display: flex;

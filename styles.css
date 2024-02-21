@@ -2,33 +2,33 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0; /* Set margin to 0 to remove space around the edges */
+    margin: 0; 
     background-color: #e0e0e0;
     color: #333;
     text-align: center;
 }
 
 .header {
-    width: 100%; /* Ensure the header is set to full width */
-    margin: 0; /* Set margin to 0 to align header to the edge of the page */
-    padding: 100px 0; /* Set padding to 0 on the left and right, maintain top and bottom padding */
+    width: 100%; 
+    margin: 0; 
+    padding: 100px 0; 
     text-align: center;
-    background-color: #1c88ed; /* Light navy blue */
-    color: #ffffff; /* Change text color to white */
-    box-sizing: border-box; /* Include padding and border in the width */
+    background-color: #1c88ed; 
+    color: #ffffff;
+    box-sizing: border-box; 
 }
 
 
 .header a {
     border-radius: 5px;
-    color: #ffffff; /* Change text color to white for better visibility */
+    color: #ffffff; 
     padding: 0 10px 0 10px;
     text-decoration: none;
 }
 
 .header a:hover {
     background-color: #333; 
-    color: #e0e0e0; /* Keeps hover effect */
+    color: #e0e0e0;
 }
 
 

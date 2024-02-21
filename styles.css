@@ -6,6 +6,9 @@ body {
     background-color: #e0e0e0;
     color: #333;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -170,8 +173,6 @@ input[type="submit"] {
     object-fit: cover; 
 }
 
-
-
 .blog-content {
     text-align: center; 
     padding: 10px;
@@ -188,7 +189,6 @@ input[type="submit"] {
     text-decoration: underline;
     cursor: pointer;
 }
-
 
 .content-wrapper {
     position: relative; 
@@ -211,11 +211,11 @@ input[type="submit"] {
     text-align: left; 
 }
 
+footer {
+    font-size: 8pt;
+    margin-top: auto;
+}
 
-
-
-
-
-
-
-
+footer p {
+    margin: 8px;
+}

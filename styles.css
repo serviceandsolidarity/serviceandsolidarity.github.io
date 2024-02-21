@@ -184,6 +184,13 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+.content-wrapper {
+    position: relative; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+}
+
 .left-backdrop {
     position: absolute;
     top: 0;

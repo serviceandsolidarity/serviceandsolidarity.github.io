@@ -30,14 +30,14 @@ body {
 
 .header a {
     border-radius: 5px;
-    color: #ffffff; /* Change text color to white for better visibility */
+    color: #ffffff; 
     padding: 0 10px 0 10px;
     text-decoration: none;
 }
 
 .header a:hover {
     background-color: #333; 
-    color: #e0e0e0; /* Keeps hover effect */
+    color: #e0e0e0;
 }
 
 

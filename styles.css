@@ -9,13 +9,22 @@ body {
 }
 
 .header {
-    width: 100%; /* Ensure the header is set to full width */
-    margin: 0; /* Set margin to 0 to align header to the edge of the page */
-    padding: 100px 0; /* Set padding to 0 on the left and right, maintain top and bottom padding */
+    position: relative; 
+    width: 100%;
+    margin: 0;
+    padding: 100px 0;
     text-align: center;
-    background-color: #1c88ed; /* Light navy blue */
-    color: #ffffff; /* Change text color to white */
-    box-sizing: border-box; /* Include padding and border in the width */
+    background-color: #1c88ed;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    position: absolute; 
+    top: 50%; 
+    left: 200px; 
+    transform: translateY(-50%);
+    height: 200px; 
 }
 
 

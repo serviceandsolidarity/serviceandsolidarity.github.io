@@ -126,14 +126,6 @@ input[type="submit"] {
 .blog-container {
     display: flex;
     justify-content: center; 
-    flex-wrap: wrap;
-    gap: 100px; 
-    margin: 50px auto 0; 
-}
-
-.blog-container {
-    display: flex;
-    justify-content: center; 
     flex-wrap: wrap; 
     gap: 100px; 
     margin: 50px auto 0; 
@@ -184,6 +176,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+
 .content-wrapper {
     position: relative; 
     display: flex;
@@ -202,7 +195,14 @@ input[type="submit"] {
     background-color: #ffffff;
     overflow-y: auto; 
     word-wrap: break-word; 
-    text-align: left; 
+	text-align: left; 
 }
+
+
+
+
+
+
+
 
 

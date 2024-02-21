@@ -174,4 +174,25 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+.content-wrapper {
+    position: relative; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+.left-backdrop {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 400px;
+    transform: translateY(450px);
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-y: auto; 
+    word-wrap: break-word; 
+	text-align: left; 
+}
+
 

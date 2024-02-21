@@ -2,39 +2,44 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0; 
+    margin: 0; /* Set margin to 0 to remove space around the edges */
     background-color: #e0e0e0;
     color: #333;
     text-align: center;
 }
 
 .header {
-    width: 100%; 
-    margin: 0; 
-    padding: 100px 0; 
+    width: 100%; /* Ensure the header is set to full width */
+    margin: 0; /* Set margin to 0 to align header to the edge of the page */
+    padding: 100px 0; /* Set padding to 0 on the left and right, maintain top and bottom padding */
     text-align: center;
-    background-color: #1c88ed; 
-    color: #ffffff;
-    box-sizing: border-box; 
+    background-color: #1c88ed; /* Light navy blue */
+    color: #ffffff; /* Change text color to white */
+    box-sizing: border-box; /* Include padding and border in the width */
 }
 
 
 .header a {
     border-radius: 5px;
-    color: #ffffff; 
+    color: #ffffff; /* Change text color to white for better visibility */
     padding: 0 10px 0 10px;
     text-decoration: none;
 }
 
 .header a:hover {
     background-color: #333; 
-    color: #e0e0e0;
+    color: #e0e0e0; /* Keeps hover effect */
 }
 
 
 .page-container {
     display: flex;
     justify-content: center;
+}
+
+.page-container-2 {
+    padding: 0 33vw 0 33vw;
+    width: 33vw;
 }
 
 .mission {
@@ -131,7 +136,6 @@ input[type="submit"] {
     margin: 50px auto 0; 
     max-width: 1200px; 
     position: relative;
-}
 }
 
 .blog-section {

@@ -233,15 +233,15 @@ footer p, .footer-content a {
 
 .page-container {
     display: flex;
-    justify-content: space-around; /* This will space the image placeholders evenly */
-    align-items: center; /* This aligns items vertically */
+    justify-content: space-around; 
+    align-items: center; 
 }
 
 .image-placeholder {
-    width: 30%; /* Adjust this value to make the placeholders less wide */
+    width: 30%; 
     height: 250px;
     overflow: hidden;
-    margin: 10px; /* Keeps a little space between the images */
+    margin: 10px; 
 }
 
 .placeholder-image {
